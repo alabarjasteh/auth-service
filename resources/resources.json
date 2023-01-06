@@ -73,5 +73,20 @@
         "path": "/api/products/create_random_products",
         "method": "POST",
         "access": 2
+    },
+    {
+        "path": "/api/basket",
+        "method": "GET",
+        "access": 1
+    },
+    {
+        "path": "/api/basket",
+        "method": "POST",
+        "access": 1
+    },
+    {
+        "path": "/api/basket",
+        "method": "PUT",
+        "access": 1
     }
 ]
